@@ -3,7 +3,7 @@ pipeline {
         label 'docker-agent-vm'
     }
     environment {
-        DOCKERHUB_USER = 'navdocker'
+        DOCKERHUB_USER = 'navdocker1'
         IMAGE_NAME = 'jenkins-docker-lab'
     }
     stages {
