@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'docker-agent-vm'
+        label 'nav-node'
     }
     environment {
         DOCKERHUB_USER = 'navdocker1'
