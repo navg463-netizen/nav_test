@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'nav-node'
+        label 'nav-ubuntu-a'
     }
     environment {
         DOCKERHUB_USER = 'navdocker1'
